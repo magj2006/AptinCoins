@@ -1,4 +1,4 @@
-module aptin_coins::coins {
+module aptin::coins {
 
     struct SOL has key {}
 
