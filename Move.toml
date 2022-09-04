@@ -5,5 +5,4 @@ version = '1.0.0'
 [dependencies.AptosFramework]
 git = 'https://github.com/davidiw/aptos-core.git'
 rev = 'conversions'
-# rev = 'devnet'
 subdir = 'aptos-move/framework/aptos-framework'
