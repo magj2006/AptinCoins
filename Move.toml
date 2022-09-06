@@ -3,6 +3,9 @@ name = 'AptinCoins'
 version = '1.0.0'
 
 [dependencies.AptosFramework]
-git = 'https://github.com/davidiw/aptos-core.git'
-rev = 'conversions'
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
 subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+aptin_coins = '0x141fb1a55fdd74c3eb4f47bff4186ae79d7713f1cce6e250f6d1dbbe0a6876e6'
