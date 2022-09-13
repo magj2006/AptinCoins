@@ -2,3 +2,6 @@
 /.aptos
 /.idea
 /Makefile
+/src/lib.rs
+/src/main.rs
+/target/
