@@ -2,7 +2,7 @@ use aptos_crypto::ed25519::Ed25519PrivateKey;
 use aptos_crypto::ValidCryptoMaterialStringExt;
 use aptin_coins::client::account::Account;
 use aptin_coins::client::aptin_coin::AptinCoinsClient;
-use aptin_coins::{BTC, NODE_URL, ETH, SOL, USDC, USDT, ALICE_KEY};
+use aptin_coins::{BTC, NODE_URL, ETH, SOL, USDC, USDT, APN, ALICE_KEY};
 
 fn main() {
     let client = AptinCoinsClient::new(NODE_URL.to_string());
@@ -16,7 +16,7 @@ fn main() {
     };
     let mut alice = Account::new(priv_key_bytes);
 
-    let bob: &str = "79d958d2358d85981b3a2e16b4bb2478de67d990987d3a1dc232503de5a7e177";
+    let bob: &str = "fed7497bcd8b83cb77703dd4a3cec7e73e97583f7d9bb02519bff99ff1ae9a1c";
 
     let amount = 100000000000000;
 
@@ -36,5 +36,4 @@ fn main() {
 
     tx_hash = client.mint(&mut alice, bob, amount, USDT);
     client.rest_client.wait_for_transaction(&tx_hash);
-
 }
