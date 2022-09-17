@@ -21,7 +21,7 @@ pub fn init(account_addr: &str, coin_type: &str) -> serde_json::Value {
                 "arguments": [
                     hex::encode("Ethereum Coin".as_bytes()),
                     hex::encode("ETH".as_bytes()),
-                    18,
+                    8,
                     false,
                 ]
             })

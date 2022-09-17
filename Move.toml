@@ -8,4 +8,4 @@ rev = 'main'
 subdir = 'aptos-move/framework/aptos-framework'
 
 [addresses]
-aptin_coins = '0xbe8118713bf0449ac797cea4ca3dc19a6e0d29cdf130087e99d035f7dc3f3bde'
+aptin_coins = '0x8dde82879560f36a85d32c2a39bbceab047100cb1aef0917ff014021e6b78963'
