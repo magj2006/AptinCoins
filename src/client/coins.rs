@@ -8,7 +8,7 @@ pub fn init(account_addr: &str, coin_type: &str) -> serde_json::Value {
                 "arguments": [
                     hex::encode("Bit Coin".as_bytes()),
                     hex::encode("BTC".as_bytes()),
-                    0,
+                    8,
                     false,
                 ]
             })
@@ -21,7 +21,7 @@ pub fn init(account_addr: &str, coin_type: &str) -> serde_json::Value {
                 "arguments": [
                     hex::encode("Ethereum Coin".as_bytes()),
                     hex::encode("ETH".as_bytes()),
-                    0,
+                    18,
                     false,
                 ]
             })
@@ -34,7 +34,7 @@ pub fn init(account_addr: &str, coin_type: &str) -> serde_json::Value {
                 "arguments": [
                     hex::encode("USD Coin".as_bytes()),
                     hex::encode("USDC".as_bytes()),
-                    0,
+                    6,
                     false,
                 ]
             })
@@ -47,7 +47,7 @@ pub fn init(account_addr: &str, coin_type: &str) -> serde_json::Value {
                 "arguments": [
                     hex::encode("Tether".as_bytes()),
                     hex::encode("USDT".as_bytes()),
-                    0,
+                    6,
                     false,
                 ]
             })
@@ -60,7 +60,7 @@ pub fn init(account_addr: &str, coin_type: &str) -> serde_json::Value {
                 "arguments": [
                     hex::encode("Solana Coin".as_bytes()),
                     hex::encode("SOL".as_bytes()),
-                    0,
+                    9,
                     false,
                 ]
             })

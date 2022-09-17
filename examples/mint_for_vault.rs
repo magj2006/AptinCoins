@@ -16,7 +16,7 @@ fn main() {
     };
     let mut alice = Account::new(priv_key_bytes);
 
-    let bob: &str = "79d958d2358d85981b3a2e16b4bb2478de67d990987d3a1dc232503de5a7e177";
+    let bob: &str = "7c346cbd6fa40b81d1e8fac3ec0095d54704f4bb54dbca9554315759266580e9";
 
     let amount = 100000000000000;
 
